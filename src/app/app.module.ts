@@ -20,6 +20,7 @@ import { EventsComponent } from './components/events/events.component';
 import { HomeComponent } from './components/home/home.component';
 import { ListCertificateComponent } from './components/list-certificate/list-certificate/list-certificate.component';
 import { NewCertificateComponent } from './components/list-certificate/new-certificate/new-certificate.component';
+import { NewEventComponent } from './components/events/new-event/new-event.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { NewCertificateComponent } from './components/list-certificate/new-certi
     EventsComponent,
     HomeComponent,
     ListCertificateComponent,
-    NewCertificateComponent
+    NewCertificateComponent,
+    NewEventComponent
   ],
   imports: [
     BrowserModule,

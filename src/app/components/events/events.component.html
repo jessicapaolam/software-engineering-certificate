@@ -1,1 +1,23 @@
-<p>events works!</p>
+<button mat-raised-button class="btn-list-certificate" color="primary" (click)="addNewEvent()">Novo</button>
+
+<div class="container" *ngIf="items.length > 0; else noEvents">
+  <div class="item" *ngFor="let item of items">
+    <mat-card class="container-card">
+      <mat-card-header>
+        <mat-card-title>{{item.title}}</mat-card-title>
+        <mat-card-subtitle>{{item.date}}</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        <p>
+        {{item.about }}
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
+
+<ng-template #noEvents>
+  <div class="no-events">
+  <p>Não há eventos cadastrados.</p>
+</div>
+</ng-template>

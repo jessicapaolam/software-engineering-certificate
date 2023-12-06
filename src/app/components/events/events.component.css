@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 0px 20px 0px 20px;
+}
+
+.item {
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+
+.container-card {
+  max-width: 300px;
+}
+
+.btn-list-certificate {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.no-events {
+  margin-left: 20px;
+}
+
