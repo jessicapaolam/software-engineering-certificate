@@ -54,7 +54,7 @@ export class CertificateComponent implements AfterViewInit {
 
         ctx2d.font = '10px Arial';
         ctx2d.fillStyle = '#311401';
-        ctx2d.fillText('realizado em 28/11/2023', 180, 270);
+        ctx2d.fillText('realizado em 08/12/2023', 180, 270);
 
         ctx2d.font = '10px Arial';
         ctx2d.fillStyle = '#311401';
