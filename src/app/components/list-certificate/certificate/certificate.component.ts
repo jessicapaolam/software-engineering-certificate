@@ -28,7 +28,7 @@ export class CertificateComponent implements AfterViewInit {
     const ctx2d = this.canvas.getContext('2d');
     if (ctx2d) {
       const imgBg = new Image();
-      imgBg.src = 'software-engineering-certificate/assets/img/certificate.jpeg';
+      imgBg.src = 'src/assets/img/certificate.jpeg';
       imgBg.onload = () => {
         console.log(imgBg.complete)
         ctx2d.drawImage(imgBg, 0, 0, this.canvas.width, this.canvas.height);
