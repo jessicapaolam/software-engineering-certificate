@@ -17,7 +17,6 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {MatInputModule} from '@angular/material/input';
 import { CertificateComponent } from './components/list-certificate/certificate/certificate.component';
 import { EventsComponent } from './components/events/events.component';
-import { HomeComponent } from './components/home/home.component';
 import { ListCertificateComponent } from './components/list-certificate/list-certificate/list-certificate.component';
 import { NewCertificateComponent } from './components/list-certificate/new-certificate/new-certificate.component';
 import { NewEventComponent } from './components/events/new-event/new-event.component';
@@ -28,7 +27,6 @@ import { NewEventComponent } from './components/events/new-event/new-event.compo
     ToolbarComponent,
     CertificateComponent,
     EventsComponent,
-    HomeComponent,
     ListCertificateComponent,
     NewCertificateComponent,
     NewEventComponent
